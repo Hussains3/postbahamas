@@ -1,0 +1,993 @@
+@import url(https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600;700&display=swap);
+/* font-family: 'Ubuntu', sans-serif; */
+
+
+
+/* font-family: 'Signika', sans-serif; */
+/* font-family: 'Maven Pro', sans-serif; */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Maven Pro', sans-serif;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none !important;
+}
+
+
+a{
+    text-decoration: none;
+}
+.unlist{
+    list-style: none;
+}
+.fw-normal{
+    font-weight: 600;
+}
+/* button */
+.btn-warning:hover{
+    background-color: #0d6efd;
+    color: #fff;
+    border: 1px solid #0d6efd;
+}
+.bt-outline-warning:hover{
+    background-color: #FCDA20;
+    color: #2C3E50 !important;
+}
+
+.brand-grad {
+    background-image: linear-gradient(100deg, #0d6efd, #FCDA20);
+  }
+
+.form-div {
+	position: relative;
+	height: 80px;
+}
+.search-form{
+    position: absolute;
+    width: 78%;
+}
+
+.search-form .input-group{
+    margin-bottom: 20px;
+}
+
+
+.search-form .input-group input{
+	border-radius: 100px 0 0 100px;
+}
+
+#button-addon2 {
+	border-radius: 0 100px 100px 0;
+}
+.btn-unstiled{
+    background-color: transparent;
+    border: none;
+}
+
+/* .main-menu a,
+.airmail-main-menu a{
+    color: #0D6EFD !important;
+} */
+.main-menu .nav-link,
+.main-menu .dropdown-item,
+.airmail-main-menu .nav-link,
+.airmail-main-menu .dropdown-item{
+	border-radius: 0.25rem !important;
+    transition: all 500ms;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.main-menu .nav-link
+.airmail-main-menu .nav-link{
+	border-radius: 0.25rem !important;
+    transition: all 500ms;
+    margin: 0 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+/* 0D6EFD */
+/* #FCDA20 */
+.main-menu .nav-link.active,
+.main-menu .dropdown-item.active,
+.airmail-main-menu .nav-link.active{
+    /* background: linear-gradient(103.3deg, #4e95ff -1.96%, #fff099 103.88%); */
+    background-color: #4e95ff;
+    color: #fff  !important;
+    transition: all 200;
+}
+
+.main-menu .nav-link:hover,
+.main-menu .dropdown-item:hover,
+.airmail-main-menu .nav-link:hover,
+.airmail-main-menu .dropdown-item:hover{
+    color: #fff  !important;
+    /* background: linear-gradient(270deg, #4e95ff -1.96%, #fff099 103.88%); */
+    background-color: #4e95ff;
+
+}
+
+.minister {
+	width: 214px;
+    height: 214px;
+	border: 3px solid #FCDA20;
+	border-radius: 100%;
+    transition: all 200ms;
+}
+.minister:hover{
+	border: 3px solid #0d6efd;
+}
+
+/* background */
+.bg-offwhite{
+    background-color: #F2F7FD;
+}
+.bg-bluegreen{
+    background-color: #115876;
+}
+
+.dropdown-item{
+    color: #737373 !important;
+}
+
+/* Post heading */
+.post-heading{
+    transition: all 200ms;
+}
+.post-heading:hover {
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+
+/* Service Image */
+.service-img{
+    position: relative;
+}
+
+.service-img::after {
+	content: "";
+	width: 95%;
+	height: 100%;
+    border-radius: 0.25rem !important;
+	background-image: linear-gradient(180deg, #0d6efd,#FCDA20);
+    position: absolute;
+    top: 4px;
+	left: 15px;
+	z-index: -1;
+    transition: all 300ms;
+}
+
+.service-img:hover::after {
+	background-image: linear-gradient(90deg, #0d6efd,#FCDA20);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    top: 9px;
+	left: 25px;
+}
+
+
+
+
+/* Agency Marque */
+.marquee-container {
+	overflow-x: hidden !important;
+	display: flex !important;
+	flex-direction: row !important;
+	position: relative;
+	width: 100%;
+}
+
+.marquee {
+	flex: 0 0 auto;
+	min-width: 100%;
+	z-index: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	animation: scroll 80s linear 0s infinite;
+	animation-play-state: running;
+	animation-delay: 0s;
+	animation-direction: normal;
+}
+
+
+/* My profile */
+.user-profile-picture {
+	width: 90px;
+	border-radius: 100px;
+	border: 1px solid #0d6efd;
+	height: 90px;
+}
+.airmalil-user-profile-picture{
+	width: 30px;
+	border-radius: 100px;
+}
+.profile-btn:focus {
+    background-color: #FCDA20;
+}
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+
+/* Dashboard */
+#wrapper {
+	display: flex;
+}
+.bg-gradient-primary {
+	background-color: #0d6efd;
+	background-image: linear-gradient(180deg,#0d6efd 10%,#FCDA20 100%);
+	background-size: cover;
+}
+.sidebar {
+	width: 6.5rem;
+	min-height: 100vh;
+}
+.accordion {
+	overflow-anchor: none;
+}
+
+.sidebar-dark .sidebar-brand {
+	color: #0d6efd;
+    background-color: #fff;
+}
+.sidebar .sidebar-brand {
+	height: 4.375rem;
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: 800;
+	padding: 1.5rem 1rem;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .05rem;
+	z-index: 1;
+}
+.sidebar hr.sidebar-divider {
+	margin: 0 1rem 1rem;
+}
+
+
+.sidebar .sidebar-heading {
+	text-align: center;
+	padding: 0 1rem;
+	font-weight: 800;
+	font-size: .65rem;
+}
+.dropdown .dropdown-menu .dropdown-header, .sidebar .sidebar-heading, .text-uppercase {
+	text-transform: uppercase !important;
+}
+
+
+.sidebar-dark .nav-item.active .nav-link i {
+	color: #fff;
+}
+
+#faqTable_length,
+#queryTable_length,
+#userTable_length,
+#shippingLocationtable_length {
+	position: absolute;
+	bottom: 3%;
+}
+.btn-hover-gray:hover{
+    background-color: #F1F1F1;
+}
+
+
+div.dataTables_paginate {
+	margin-top: 15px !important;
+}
+
+#userTable_paginate a,
+#queryTable_paginate a {
+    text-decoration: none;
+}
+
+.paginate_button.current {
+    padding: 3px 6px;
+	border: 1px solid #0d6efd;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-radius: 3px;
+    color: #fff;
+    background-color: #0d6efd;
+}
+.paginate_button {
+    padding: 3px 6px;
+	border: 1px solid #0d6efd;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-radius: 3px;
+}
+
+/* #faqTable_filter{
+    text-align: left !important;
+} */
+
+@media all and (min-width: 768px) {
+
+    .sidebar {
+        width: 14rem !important;
+    }
+    .sidebar .sidebar-heading {
+        text-align: left;
+    }
+
+    .sidebar.toggled .nav-item .nav-link span {
+        display: none !important;
+    }
+    .sidebar.toggled .nav-item .nav-link i {
+        margin-right: 0;
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Airmail */
+/* nav */
+#profiledropdown .dropdown-menu[data-bs-popper],
+#languagedropdown .dropdown-menu[data-bs-popper]{
+	top: 165%;
+	left: 50%;
+	margin-top: 0.125rem;
+	transform: translateX(-50%);
+}
+
+
+.dark-background {
+	z-index: 11;
+	position: fixed;
+	background-color: rgba(0,0,0,.8);
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	top: 75px;
+}
+.navbar-header-auth-togler.lg {
+    position: fixed;
+	z-index: 1033;
+	top: 3px;
+	left: 20px;
+	transform: translatey(-50%);
+    margin-top: 34px;
+}
+
+/* side bar */
+.navbar-header-auth {
+	flex-direction: column;
+	width: 280px;
+	height: 100%;
+	transition: all .5s ease;
+	position: fixed;
+	top: 75px;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	z-index: 100;
+    color: #F2F7FD;
+
+}
+.navbar-header-auth ul{
+    padding: 30px 0 0 30px;
+}
+.navbar-header-auth ul .nav-item{
+    margin-bottom: 30px;
+}
+.navbar-header-auth ul .nav-item a {
+    color: #F2F7FD !important;
+    text-transform: uppercase;
+
+}
+.navbar-header-auth-hide{
+	transform: translate3d(-280px,0,0);
+}
+
+.navbar-header-auth .title{
+    padding-left: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+.navbar-header-auth .nav-only-phone{
+    display: none;
+}
+
+
+/* banner */
+#airmailherobanner{
+    background-image: url('/staticimages/airmailbanner/banner03.jpg');
+    background-size:cover;
+    min-height: 574px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 82px;
+}
+
+#airmailherobanner h1{
+    font-size: 48px;
+}
+.bannerelementsection{
+	padding: 3rem !important;
+}
+.bannerelements{
+    width: 380px;
+}
+
+/* what we offer section */
+.img-we-do {
+	position: relative;
+	width: 130px;
+	height: 130px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100px;
+	box-shadow: 2.5px 4.33px 21px 0 rgba(0,0,0,.32);
+	z-index: 3;
+}
+
+.img-we-do::after, .img-we-do::before {
+	content: "";
+	border-radius: 100px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.img-we-do::after {
+    background-color: #fd4f00;
+    background: linear-gradient(180deg, #0D6EFD 0%, #FCDA20 100%);
+	opacity: .802;
+	right: -6px;
+	bottom: -6px;
+	z-index: 1;
+    /* animation: spin 1s linear infinite; */
+    /* transform-origin: 6px 6px; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+
+ .img-we-do::before {
+	background-color: #fff;
+	left: 0;
+	top: 0;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	z-index: 2;
+}
+
+.what-icon {
+	height: 60px;
+	width: auto;
+	object-fit: contain;
+	object-position: left;
+	margin-left: -10px;
+	position: relative;
+	z-index: 4;
+}
+
+
+/* we deliver section */
+.we-deliver-section{
+    background: linear-gradient(90deg, #0D6EFD 9.27%, #FCDA20 84.77%, #FFFFFF 80%);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.we-deliver-title{
+    font-size: 60px;
+}
+.we-deliver-image{
+    position: absolute;
+    right: 0;
+    top: 59px;
+}
+
+.calculate-btn:hover{
+    border: 1px solid #fcda20;
+    background-color: transparent;
+}
+
+
+/* How it works section */
+.img-how-do {
+	position: relative;
+
+}
+
+.how-it-text{
+    font-size: 18px;
+}
+.img-how-do img {
+	/* height: 60px; */
+	width: auto;
+	object-fit: contain;
+	object-position: left;
+	margin-left: -10px;
+	position: relative;
+	z-index: 4;
+    left: 59%;
+    transform: translateX(-50%);
+}
+
+.img-how-do::after, .img-how-do::before {
+	content: "";
+	border-radius: 100%;
+	position: absolute;
+	width: 85%;
+	height: 85%;
+}
+.img-how-do::after {
+    background-color: #fd4f00;
+    background: linear-gradient(180deg, #0D6EFD 0%, #FCDA20 100%);
+	opacity: .802;
+	right: 18px;
+	bottom: 20px;
+	z-index: 1;
+    /* animation: spin 1s linear infinite; */
+    /* transform-origin: 6px 6px; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+.how-it-work-item{
+    justify-content: space-between;
+}
+
+.dashline1 {
+	position: absolute;
+	width: 229px;
+	top: 67px;
+	left: 154px;
+	transform: rotate(-24deg);
+}
+.dashline2 {
+	position: absolute;
+	width: 235px;
+	top: 67px;
+	left: 469px;
+	transform: rotate(24deg);
+}
+.dashline3 {
+	position: absolute;
+	width: 229px;
+	top: 72px;
+	left: 730px;
+	transform: rotate(-27deg);
+}
+
+
+
+
+
+.signup-heading h2{
+    /* text-align: center;*/
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.signup-heading p{
+    /* text-align: center;*/
+    font-size: 28px;
+    font-weight: 500;
+}
+.bps-input,
+.signup-mail {
+    width: 80%;
+    border: 0  solid #ced4da;
+}
+
+
+
+
+/* Rates */
+/* Pakage rates */
+
+
+#ratesherobanner{
+    background-image: url('/staticimages/rates/hero.jpg');
+    background-size:cover;
+    min-height: 300px;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-top: 70px;
+}
+
+#ratesherobanner h1{
+    font-size: 48px;
+}
+
+.pakage-rate-card{
+    background-color: #F2F7FD;
+    padding: 100px 60px;
+	transition: all .4s ease;
+    border: none;
+}
+.pakage-rate-card:hover{
+    background-color: #fcda20;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.package-rate-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.package-rate-price{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.package-rate-weight{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.other-fees-card{
+    background: transparent;
+    border: none;
+    padding: 40px;
+	transition: all .4s ease;
+    min-height: 225px;
+}
+.other-fees-card:hover {
+    background: #0D6EFD;
+    color: #fff !important;
+}
+
+.other-fees-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.other-fees-parcent{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.other-fees-card p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+.conditional-cart{
+    min-height: 600px;
+    transition: all .2s ease;
+    box-shadow: 1px 1.732px 4px 0 rgba(0,0,0,.35);
+    margin-bottom: 10px;
+}
+.conditional-cart:hover {
+	cursor: pointer;
+	box-shadow: 5px 8.66px 29px 0 rgba(0,0,0,.32);
+}
+.conditional-cart .card-header{
+    background-color: #2C3E50;
+    color: #fff;
+    transition: all .2s ease;
+
+}
+.conditional-cart:hover .card-header{
+    background-color: #fcda20;
+    color: #2C3E50;
+}
+
+
+/* Pakages */
+#packagesherobanner{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 70px;
+}
+
+#packagesherobanner h1{
+    font-size: 48px;
+}
+
+
+.packagesSection .nav-tabs .nav-item .nav-link.active{
+    color: #ffffff;
+	background-color: #0d6efd;
+	border:none;
+}
+.packagesSection .nav-tabs .nav-item .nav-link.active .badge{
+    /* color: #ffffff;
+	background-color: #0d6efd; */
+	border:1px solid #fff;
+}
+.packagesSection .nav-tabs{
+	border:none;
+}
+.packagesSection .nav-tabs .nav-item{
+	border:none;
+}
+.packagesSection #myTabContent{
+	margin-top: -1px;
+}
+
+
+
+
+/* FAQ */
+/* Hero */
+#faqherobanner{
+    background-image: url('/staticimages/faq/hero.jpg');
+    background-size:cover;
+    min-height: 300px;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    /* margin-top: 70px; */
+}
+
+#faqherobanner h1{
+    font-size: 48px;
+}
+
+.faq-nav .nav-item a.active {
+    border-bottom: 2px solid #0D6EFD;
+}
+
+
+
+
+
+/* Contact */
+/* Hero */
+#contactherobanner{
+    background-image: url('/staticimages/contact/hero.jpg');
+    background-size:cover;
+    min-height: 300px;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    /* margin-top: 70px; */
+}
+
+#contactherobanner h1{
+    font-size: 48px;
+}
+/* Locations */
+.address-card{
+    transition: all .2s ease;
+}
+.address-card:hover{
+    background-color: #fcda20;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 767px) {
+    .h652{
+        height: 562px;
+    }
+}
+/* Aimations ------------------------------------------------------------------------------------------------------------------------------- */
+.img-how-do:hover::after,
+.img-we-do:hover::after {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin  {
+    100%{
+      transform: rotate(360deg);
+    }
+}
+
+/* Smartphone only 767 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 767px) {
+    .top-bar .col-md-7{
+        /* display: none !important; */
+        flex-direction: column !important;
+    }
+    .top-bar .col-md-7 a{
+        /* display: none !important; */
+        padding: 3px !important;
+    }
+
+
+    .form-div {
+        height: 110px;
+    }
+    .freverse{
+        flex-direction: column-reverse;
+    }
+
+
+    .footer-menu{
+        text-align: center;
+    }
+
+    .footer-brand{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* Profile */
+    .user-profile-binfo{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+
+    /* Airmail */
+    /* nav */
+    .only-lgd,
+    .logo-text,
+    .navbar-header-auth-togler.lg{
+        display: none !important;
+    }
+    .col-md-3.col-sm-3.d-flex.logo-column {
+        width: 33%;
+    }
+    .menu-column{
+        width: 0 !important;
+    }
+    .profile-columm {
+        width: 50% !important;
+    }
+    .menu-row{
+        justify-content: space-between;
+    }
+
+    #airmailherobanner{
+        background-image: url('/staticimages/airmailbanner/bannerphone.jpg');
+        min-height: 480px;
+        background-position: center;
+        background-size: cover;
+        padding-top: 82px;
+        margin-top: 70px;
+
+    }
+
+    .bannerelementsection {
+        padding: 25px !important;
+    }
+
+    #airmailherobanner h1 {
+        font-size: 34px;
+        width: 50%;
+    }
+    .bannerelements{
+        width: 240px !important;
+    }
+
+    .navbar-header-auth .nav-only-phone{
+        display: block;
+    }
+
+
+    .what-we-last{
+        align-items: start;
+    }
+    .what-we-last .img-we-do-back {
+        margin-left: 13px;
+    }
+    .what-we-last p{
+        width: 45%;
+    }
+
+    /* How it works */
+
+    .how-it-work-item{
+        height: 213px;
+    }
+    .how-it-text{
+        font-size: 10px;
+    }
+
+    .dashline1 {
+        position: absolute;
+        width: 95px;
+        top: 79px;
+        left: 44px;
+        transform: rotate(2deg);
+    }
+    .dashline2 {
+        position: absolute;
+        width: 95px;
+        top: 79px;
+        left: 159px;
+        transform: rotate(-3deg);
+    }
+    .dashline3 {
+        position: absolute;
+        width: 95px;
+        top: 79px;
+        left: 260px;
+        transform: rotate(2deg);
+    }
+
+
+    /*  We deliver */
+    .we-deliver-section{
+        background-color: #0D6EFD !important;
+        background: none;
+    }
+
+    .we-deliver-image{
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+
+
+    /* Bottom signup */
+    .signup-heading{
+        text-align: center;
+    }
+
+
+    .signup-mail {
+        width: 65%;
+    }
+
+    .package-rate-col{
+        width: 50%;
+        margin-top: 15px;
+    }
+    .pakage-rate-card{
+        background-color: #F2F7FD;
+        padding: 20px 10px;
+        transition: all .4s ease;
+        border: none;
+    }
+    .pakage-rate-card:hover{
+        background-color: #fcda20;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    .package-rate-title{
+        font-size: 30px;
+    }
+    .package-rate-price{
+        font-size: 45px;
+    }
+    .package-rate-weight{
+        font-size: 25px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

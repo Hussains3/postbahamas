@@ -1,0 +1,78 @@
+domain name: postbahamas.xyz
+cpanel username: devpost121
+Cpanel-Password: +v]Sv2ztAk(A
+
+
+ftp
+------------------------
+FTP Username:devsabbi@postbahamas.xyz
+FTP server: ftp.postbahamas.xyz
+FTP & explicit FTPS port:  21
+Ftp Password:]F!c;}GDvbBL
+
+FTP 2
+-------------------
+FTP Username: devsabbir@z4id.com
+FTP server: ftp.z4id.com
+FTP & explicit FTPS port:  21
+FTP Password:Qo0h2O4SftvZ
+
+
+
+Login Details
+------------------------
+Username: zidcom
+Password: J39!5V[kLnC8oz
+
+Control Panel URL: http://173.249.60.219:2082/
+Once your domain has propagated, you may also use http://www.z4id.com:2082/
+
+
+Database: bahamaspostoffice
+
+
+
+https://codeanddeploy.com/blog/laravel/laravel-8-user-roles-and-permissions-step-by-step-tutorial#kjNAJj9MlMLUcT2n1u7o2VOaO
+
+composer require spatie/laravel-permission
+composer require laravelcollective/html
+
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+php artisan make:middleware PermissionMiddleware
+
+
+
+Seeder
+------------
+php artisan db:wipe
+php artisan migrate
+php artisan permission:create-permission-routes
+php artisan db:seed
+
+/clearCache
+/clearDatabase
+/migrate
+/seedPermission
+/seedDb
+
+
+Model
+-------------
+User
+Role
+Permission
+Query
+FaqCategory
+FaqSubCategory
+Faq
+Address
+
+
+
+Mails
+------------------
+ContactThanks
+
+
+
+
