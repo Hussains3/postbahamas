@@ -18,6 +18,7 @@ class CreateQueriesTable extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('subject');
+            $table->string('to')->nullable();
             $table->string('phone');
             $table->string('message', 1000);
             $table->unsignedTinyInteger('status')->default(1)->comment('1=>Unread,2=>Read,3=>Replied');

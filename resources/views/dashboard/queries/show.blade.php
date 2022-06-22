@@ -23,8 +23,8 @@
                             @endif
                         @endif
                         <div class="">
-                            <h4 class="fs-5">{{$query->name.' ('.$query->email.')'}}</h4>
-                            <p>to <a href="mailto: {{env('MAIL_USERNAME')}}">{{env('MAIL_USERNAME')}}</a></p>
+                            <h4 class="fs-5">{{$query->name}}</h4>
+                            <p>to <a href="mailto: {{$query->to}}">{{$query->to}}</a></p>
                         </div>
                     </div>
                     <div class="">

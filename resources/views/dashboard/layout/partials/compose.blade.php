@@ -27,9 +27,7 @@
                             <p class="m-0">Sentbox</p>
                         </div>
                     <div class="col-8 d-flex justify-content-end">
-                        @if ($unread > 0)
-                        <span class="badge bg-primary fw-light">{{$unread}}</span>
-                        @endif
+                        <span class="badge  fw-light">&nbsp;</span>
                     </div>
                 </div>
             </a>

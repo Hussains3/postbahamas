@@ -90,6 +90,11 @@ class QueryController extends Controller
         if ($request->messegeSender && $request->messegeSender == 'admin'){
             $query->status =  3;
         }
+        if ($request->messegeSender && $request->messegeSender == 'admin'){
+            $query->to =   $request->email;
+        }else{
+            $query->to =  'noreplay@z4id.com';
+        }
         $query->save();
 
         // Messages
@@ -121,10 +126,6 @@ class QueryController extends Controller
             Mail::to($request->email)->send(new ContactThanks($user));
             return response()->json(['status'=>'Success','message'=>'Thanks for contacting us.']);
         }catch (\Exception $exception){}
-
-
-
-
     }
 
     /**
@@ -136,7 +137,9 @@ class QueryController extends Controller
     public function show($query)
     {
         $query= Query::find($query);
-        $query->status = 2;
+        if ($query->status != 3) {
+            $query->status = 2;
+        }
         $query->save();
         $unread = Query::where('status', 1)->count();
 
