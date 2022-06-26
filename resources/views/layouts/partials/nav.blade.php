@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-5"></div>
         <div class="col-md-7 d-flex justify-content-end">
-            <div class=""><a class="nav-link d-flex align-items-center" href=""><i class="text-secondary me-2 fa-solid fa-location-dot"></i>Post Office Location</a></div>
+            <div class=""><a class="nav-link d-flex align-items-center" href="{{route('locations.frontend')}}"><i class="text-secondary me-2 fa-solid fa-location-dot"></i>Post Office Location</a></div>
             <div class=""><a class="nav-link d-flex align-items-center" href=""><i class="text-secondary me-2 fa-solid fa-headset"></i>Support</a></div>
             <div class=""><a class="nav-link d-flex align-items-center" href="{{route('contact.frontend')}}" target="_blank"><i class="text-secondary me-2 fa-solid fa-address-book"></i>Contact Us</a></div>
         </div>

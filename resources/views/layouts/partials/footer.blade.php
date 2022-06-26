@@ -3,12 +3,12 @@
         <div class="row">
             <div class="col-md-3 footer-brand">
                 <a class="navbar-brand d-flex align-items-center" href="{{ url('/') }}">
-                    <img class="" src="{{asset('staticimages/bahamas-post-office.png')}}" alt="{{ config('app.name', 'Laravel') }}" width="50px" height="50px">
+                    <img class="" src="{{asset('staticimages/bahamas-post-office-white.png')}}" alt="{{ config('app.name', 'Laravel') }}" width="50px" height="50px">
                     <p class="ps-2 ms-2 mb-0 fs-4 border-start border-warning text-uppercase fw-bold lh-1 text-warning">Bahamas<br/>Postal Service</p>
                 </a>
                 <div class="row mt-3">
                     <div class="col-md-12 text-md-right">
-                        <ul class="list-unstyled social nav-right d-flex justify-content-center">
+                        <ul class="list-unstyled social nav-right d-flex justify-content-start">
                             <li class="mx-2"><a class="text-decoration-none text-warning" href="#"><i class="fs-5 fa-brands fa-facebook"></i></a></li>
                             <li class="mx-2"><a class="text-decoration-none text-warning" href="#"><i class="fs-5 fa-brands fa-instagram"></i></a></li>
                             <li class="mx-2"><a class="text-decoration-none text-warning" href="#"><i class="fs-5 fa-brands fa-pinterest"></i></a></li>

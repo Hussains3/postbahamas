@@ -27,6 +27,7 @@ Route::group(['namespace' => 'App\Http\Controllers'], function(){
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('/bps_rates', 'HomeController@rates')->name('rates.frontend');
     Route::get('/contact', 'HomeController@contact')->name('contact.frontend');
+    Route::get('/post_office_locations', 'HomeController@postLocations')->name('locations.frontend');
     Route::get('/bps_faq', 'HomeController@faq')->name('faq.frontend');
 
     Route::group(['prefix' => 'airmail'], function() {

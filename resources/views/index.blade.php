@@ -142,7 +142,7 @@
             <div class="col-md-6 pe-md-5">
                 <h3 class="border border-warning rounded-pill text-center py-2 mb-5 bg-warning post-heading">Airmail Express
                     Mail</h3>
-                <p class="fs-5">Airmail Express Mail allows the sender to post letters and small packages faster
+                <p class="fs-5 text-justify">Airmail Express Mail allows the sender to post letters and small packages faster
                     than ordinary mail. This type of mail is not trackable by the post office.</p>
                 <button class="btn btn-warning  mb-3 px-5">Read More</button>
             </div>
@@ -157,7 +157,7 @@
             </div>
             <div class="col-md-6 ps-md-5 flex-sm-row-reverse">
                 <h3 class="border border-warning rounded-pill text-center py-2 mb-5 bg-warning post-heading">Domestic Money Order</h3>
-                <p class="fs-5">A Domestic Money Order allows the applicant to transmit money to various sections
+                <p class="fs-5 text-justify">A Domestic Money Order allows the applicant to transmit money to various sections
                     of the Family Islands. Persons who would be interested in this type of service include: Businesses,
                     Citizens and Residents who seek to make bill payments. Parents of school children. Government Agencies
                     who seek to make payments in the Family Islands.</p>
@@ -170,7 +170,7 @@
             <div class="col-md-6 pe-md-5">
                 <h3 class="border border-warning rounded-pill text-center py-2 mb-5 bg-warning post-heading">International Money Order
                     (US Dollar) </h3>
-                <p class="fs-5">A Canadian Dollar International Money Order can be used for paying bills or making
+                <p class="fs-5 text-justify">A Canadian Dollar International Money Order can be used for paying bills or making
                     purchases abroad. A US Dollar International Money Order can be purchased at the Savings Bank Money
                     Orders Section at any Post Office.</p>
                 <button class="btn btn-warning  mb-3 px-5">Read More</button>
@@ -188,11 +188,11 @@
             <div class="row">
                 <div class="col-md-6">
                     <h4 class="text-primary mb-4">Our Vision</h4>
-                    <p>The Bahamas Post Office is committed to providing high-quality postal services to all Bahamians. Its enthusiastic, professional staff will maintain a progressive organization through a commitment to the highest levels of customer satisfaction.</p>
+                    <p class="text-justify">The Bahamas Post Office is committed to providing high-quality postal services to all Bahamians. Its enthusiastic, professional staff will maintain a progressive organization through a commitment to the highest levels of customer satisfaction.</p>
                 </div>
                 <div class="col-md-6 border-start border-primary">
                     <h4 class="text-primary mb-4">Our Mission</h4>
-                    <p>The mission of the Bahamas Post Office is to be recognized and respected for its timely collection, and transmittal of postal products, from and for Bahamian and international consumers, including businesses and other organizations. It is to become a fully-featured market-oriented and profitable business, which meets the communications, advertising, and physical distributional needs of the customer.</p>
+                    <p class="text-justify">The mission of the Bahamas Post Office is to be recognized and respected for its timely collection, and transmittal of postal products, from and for Bahamian and international consumers, including businesses and other organizations. It is to become a fully-featured market-oriented and profitable business, which meets the communications, advertising, and physical distributional needs of the customer.</p>
 
                 </div>
             </div>

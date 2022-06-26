@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600;700&display=swap);
 /* font-family: 'Ubuntu', sans-serif; */
 
-
+/* 4e95ff */
 
 /* font-family: 'Signika', sans-serif; */
 /* font-family: 'Maven Pro', sans-serif; */
@@ -12,6 +12,9 @@ input:focus, textarea:focus, select:focus{
     outline: none !important;
 }
 
+.text-justify{
+    text-align: justify;
+}
 
 a{
     text-decoration: none;
@@ -24,9 +27,9 @@ a{
 }
 /* button */
 .btn-warning:hover{
-    background-color: #0d6efd;
+    background-color: #4e95ff;
     color: #fff;
-    border: 1px solid #0d6efd;
+    border: 1px solid #4e95ff;
 }
 .bt-outline-warning:hover{
     background-color: #FCDA20;
@@ -34,7 +37,7 @@ a{
 }
 
 .brand-grad {
-    background-image: linear-gradient(100deg, #0d6efd, #FCDA20);
+    background-image: linear-gradient(100deg, #4e95ff, #FCDA20);
   }
 
 .form-div {
@@ -65,7 +68,7 @@ a{
 
 /* .main-menu a,
 .airmail-main-menu a{
-    color: #0D6EFD !important;
+    color: #4e95ff !important;
 } */
 .main-menu .nav-link,
 .main-menu .dropdown-item,
@@ -84,7 +87,7 @@ a{
     padding-top: 3px;
     padding-bottom: 3px;
 }
-/* 0D6EFD */
+/* 4e95ff */
 /* #FCDA20 */
 .main-menu .nav-link.active,
 .main-menu .dropdown-item.active,
@@ -113,7 +116,7 @@ a{
     transition: all 200ms;
 }
 .minister:hover{
-	border: 3px solid #0d6efd;
+	border: 3px solid #4e95ff;
 }
 
 /* background */
@@ -147,7 +150,7 @@ a{
 	width: 95%;
 	height: 100%;
     border-radius: 0.25rem !important;
-	background-image: linear-gradient(180deg, #0d6efd,#FCDA20);
+	background-image: linear-gradient(180deg, #4e95ff,#FCDA20);
     position: absolute;
     top: 4px;
 	left: 15px;
@@ -156,7 +159,7 @@ a{
 }
 
 .service-img:hover::after {
-	background-image: linear-gradient(90deg, #0d6efd,#FCDA20);
+	background-image: linear-gradient(90deg, #4e95ff,#FCDA20);
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
     top: 9px;
 	left: 25px;
@@ -192,7 +195,7 @@ a{
 .user-profile-picture {
 	width: 90px;
 	border-radius: 100px;
-	border: 1px solid #0d6efd;
+	border: 1px solid #4e95ff;
 	height: 90px;
 }
 .airmalil-user-profile-picture{
@@ -217,8 +220,8 @@ a{
 	display: flex;
 }
 .bg-gradient-primary {
-	background-color: #0d6efd;
-	background-image: linear-gradient(180deg,#0d6efd 10%,#FCDA20 100%);
+	background-color: #4e95ff;
+	background-image: linear-gradient(180deg,#4e95ff 10%,#FCDA20 100%);
 	background-size: cover;
 }
 .sidebar {
@@ -230,7 +233,7 @@ a{
 }
 
 .sidebar-dark .sidebar-brand {
-	color: #0d6efd;
+	color: #4e95ff;
     background-color: #fff;
 }
 .sidebar .sidebar-brand {
@@ -287,16 +290,16 @@ div.dataTables_paginate {
 
 .paginate_button.current {
     padding: 3px 6px;
-	border: 1px solid #0d6efd;
+	border: 1px solid #4e95ff;
 	margin-right: 3px;
 	margin-left: 3px;
 	border-radius: 3px;
     color: #fff;
-    background-color: #0d6efd;
+    background-color: #4e95ff;
 }
 .paginate_button {
     padding: 3px 6px;
-	border: 1px solid #0d6efd;
+	border: 1px solid #4e95ff;
 	margin-right: 3px;
 	margin-left: 3px;
 	border-radius: 3px;
@@ -447,7 +450,7 @@ div.dataTables_paginate {
 }
 .img-we-do::after {
     background-color: #fd4f00;
-    background: linear-gradient(180deg, #0D6EFD 0%, #FCDA20 100%);
+    background: linear-gradient(180deg, #4e95ff 0%, #FCDA20 100%);
 	opacity: .802;
 	right: -6px;
 	bottom: -6px;
@@ -480,7 +483,7 @@ div.dataTables_paginate {
 
 /* we deliver section */
 .we-deliver-section{
-    background: linear-gradient(90deg, #0D6EFD 9.27%, #FCDA20 84.77%, #FFFFFF 80%);
+    background: linear-gradient(90deg, #4e95ff 9.27%, #FCDA20 84.77%, #FFFFFF 80%);
     padding-top: 150px;
     padding-bottom: 150px;
 }
@@ -529,7 +532,7 @@ div.dataTables_paginate {
 }
 .img-how-do::after {
     background-color: #fd4f00;
-    background: linear-gradient(180deg, #0D6EFD 0%, #FCDA20 100%);
+    background: linear-gradient(180deg, #4e95ff 0%, #FCDA20 100%);
 	opacity: .802;
 	right: 18px;
 	bottom: 20px;
@@ -647,7 +650,7 @@ div.dataTables_paginate {
     min-height: 225px;
 }
 .other-fees-card:hover {
-    background: #0D6EFD;
+    background: #4e95ff;
     color: #fff !important;
 }
 
@@ -706,12 +709,12 @@ div.dataTables_paginate {
 
 .packagesSection .nav-tabs .nav-item .nav-link.active{
     color: #ffffff;
-	background-color: #0d6efd;
+	background-color: #4e95ff;
 	border:none;
 }
 .packagesSection .nav-tabs .nav-item .nav-link.active .badge{
     /* color: #ffffff;
-	background-color: #0d6efd; */
+	background-color: #4e95ff; */
 	border:1px solid #fff;
 }
 .packagesSection .nav-tabs{
@@ -744,7 +747,7 @@ div.dataTables_paginate {
 }
 
 .faq-nav .nav-item a.active {
-    border-bottom: 2px solid #0D6EFD;
+    border-bottom: 2px solid #4e95ff;
 }
 
 
@@ -764,6 +767,22 @@ div.dataTables_paginate {
 }
 
 #contactherobanner h1{
+    font-size: 48px;
+}
+
+/* Post office locations */
+/* Hero */
+#locationherobanner{
+    background-image: url('/staticimages/contact/hero.jpg');
+    background-size:cover;
+    min-height: 300px;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    /* margin-top: 70px; */
+}
+
+#locationherobanner h1{
     font-size: 48px;
 }
 /* Locations */
@@ -855,8 +874,9 @@ div.dataTables_paginate {
     .menu-column{
         width: 0 !important;
     }
-    .profile-columm {
-        width: 50% !important;
+    .airmail-menu-right {
+        width: 67% !important;
+        justify-content: flex-end;
     }
     .menu-row{
         justify-content: space-between;
@@ -933,7 +953,7 @@ div.dataTables_paginate {
 
     /*  We deliver */
     .we-deliver-section{
-        background-color: #0D6EFD !important;
+        background-color: #4e95ff !important;
         background: none;
     }
 
